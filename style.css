@@ -1,0 +1,199 @@
+@font-face {
+    font-family: Dreamwood;
+    src: url(dreamwood.ttf);
+}
+
+@font-face {
+  font-family: Cooper Hewitt;
+  src: url(cooper-hewitt.light.otf);
+}
+
+@font-face {
+  font-family: Milky Coffee;
+  src: url(milkycoffee.otf);
+}
+
+html {
+  height: 100%;
+  width: 100vw;
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vw;
+  width: 100vw;
+  background-image: url("pinkclouds.png");
+  background-color: white;
+  background-size: cover;
+}
+
+
+/* navigation bar */
+.navbar {
+  background-color: #FCF7FF;
+  color: black;
+  font-family: 'Milky Coffee'; 
+
+  font-size: 25px;
+  text-align: center;
+
+  padding: 3vw;
+  top: 0;
+}
+#tab {
+  padding: 5vw;
+  text-decoration: none;
+  color: black;
+}
+#tab:visited {
+  text-decoration: none; 
+  color: black;
+}
+#tab:hover {
+  /* maybe we want to have it change a color when hovering over to make it more user friendly! */
+}
+
+/* cover */ 
+.cover {
+  height: 105vh;
+  width: 101vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: -5vh;
+  margin-left: -1vw;
+}
+
+/*Put all the big titles under here! :D */
+.DYW {
+  color: #422B4F;
+  font-family: Dreamwood; 
+  font-size: 8vw;
+}
+
+.bigTitle {
+  color: #422B4F;
+  font-family: Dreamwood; /* temporary font */
+  font-size: 5vw;
+  justify-content: center;
+  display: flex;
+
+  margin-top: 10vh;
+}
+
+/*mission bio go weeee*/
+
+.missionText{
+  font-size: 21px;
+  font-family: 'Cooper Hewitt', sans-serif /* another temporary font */;
+  text-align: center;
+  padding-left: 21%;
+  padding-right: 21%;
+}
+
+/* this can be our bio and projects section >:D */
+
+/* Our resources area */
+
+/* app icon */ 
+.appIcon img {
+  width: 7vw;
+  height: 7vw;
+}
+
+.appSection {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.appIcon {
+  font-size: 20px;
+  margin: 2vw;
+  background-color: #F6B6B8;
+  border-radius: 10px;
+
+  padding: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+
+  transition: box-shadow 0.5s;
+}
+.appIcon a {
+  color: #FCF7FF;
+  text-decoration: none;
+}
+
+.appIcon p {
+  font-family: Milky Coffee
+}
+
+.appIcon:hover {
+  box-shadow: 5px 5px 10px #bdbdbd;
+}
+
+/* Our videos */
+video {
+  display: block;
+  top: 0;
+  width: 100%;  
+}
+
+
+/* bio codey */
+.bioType1 {
+  display: flex;
+  font-family: 'Cooper Hewitt', sans-serif /* another temporary font */;
+  font-size: 1.5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vw;
+}
+
+.bioType2 {
+  display: flex;
+  font-family: 'Cooper Hewitt', sans-serif /* another temporary font */;
+  font-size: 1.5vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vw;
+}
+
+.bioVideo1 {
+  flex: 40%;
+  width: 20vw; 
+  height: 6vw; 
+}
+
+.bioVideo2 {
+  flex: 40%;
+  width: 20vw; 
+  height: 6vw;
+}
+
+.bioText1 {
+  flex: 60%;
+  padding-bottom: 3vw;
+  padding-left: 10vw;
+  padding-right: 5vw;
+  
+} 
+
+.bioText2 {
+  flex: 60%;
+  padding-bottom: 3vw;
+  padding-right: 10vw;
+  padding-left: 5vw;
+}
+
+
+
+#c {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  
+}
